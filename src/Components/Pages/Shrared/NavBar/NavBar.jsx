@@ -10,6 +10,7 @@ const NavBar = () => {
                 <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to='/about'>About</NavLink></li>
                 <li><NavLink to='/career'>Career</NavLink></li>
+                <li><NavLink to='/Login'>Login</NavLink></li>
 
 
         </>
@@ -38,7 +39,7 @@ const NavBar = () => {
                                                 <img src={UserDefultpic}alt="" />
                                         </div>
                                 </div>
-                                <Link>
+                                <Link to="/Login">
                                         <button className="">Login</button>
                                 </Link>
 
